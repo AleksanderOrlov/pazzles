@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<script>
+  var a = parseInt("0");
+  var b = prompt('Зимой и летом одним цветом:');
+  if (b.toLowerCase() == "ёлка" || b.toLowerCase() == "елка") {
+    var a = parseInt(a + 1);
+    alert('Верно!');
+  } else {
+    alert('Неверно!')
+  }
+  var c = prompt('Не лает, не кусает в дом не пускает:');
+  if (c.toLowerCase() == "замок") {
+    var a = parseInt(a + 1);
+    alert('Верно!');
+  }else {
+    alert('Неверно!');
+  }
+  var d = prompt('Что в России на первом месте, а во Франции на втором?');
+  if (d.toLowerCase() == 'р') {
+    var a = parseInt(a + 1);
+    alert('Верно!');
+  }else {
+    alert('Неверно!');
+    }
+  alert('Правильных ответов : ' + a);
+</script>
